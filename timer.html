@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Countdown Timer</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="timer.js" defer></script>
+    </head>
+    <body>
+        <div class="heading-countdown">
+            <p>
+                <center>
+                    <h2> Gitam (Deemed to be University) Hyderabad</h2>
+                </center>
+                <center>
+                    <h2> Acadamic Calendar Countdown - V & VII Semester 2022-23</h2>
+                </center>
+                <center>
+                    <h2> Faculty of Engineering </h2>
+                </center>
+            </p>  
+        </div>
+        
+        <!-- <div class="main-container">
+        <div class="container-labels">
+            <h3 class="label-one label">Commencement of 2022-23 Acadamic year odd Sem</h3>
+            <h3 class="label-two label">Mid-1</h3>
+            <h3 class="label-three label">Mid-2</h3>
+            <h3 class="label-four label">Mid-3</h3>
+            <h3 class="label-five label">Date of Clousure of classwork</h3>
+            <h3 class="label-six label">Date of commencemnt of End Sem Examination</h3>
+            <h3 class="label-seven label">Clousure of Examination</h3>
+        </div>
+        <br> -->
+
+        <div class="countdown-container-head">
+
+        <div class="countdown-container">
+            <h3 class="label-one label">Commencement of 2022-23 Acadamic year odd Semester</h3>
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days">0</p>
+                <span>days</span>
+            </div>
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours">0</p>
+                <span>hours</span>
+            </div>
+            <div class="countdown-el mins-c">
+                <p class="big-text" id="mins">0</p>
+                <span>mins</span>
+            </div>
+            <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds">0</p>
+                <span>seconds</span>
+            </div>
+        </div>
+        <p></p>
+    
+        <div class="countdown-container">
+            <h3 class="label-two label">Mid-1</h3>
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days1">0</p>
+                <span>days</span>
+            </div>
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours1">0</p>
+                <span>hours</span>
+            </div>
+            <div class="countdown-el mins-c">
+                <p class="big-text" id="mins1">0</p>
+                <span>mins</span>
+            </div>
+            <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds1">0</p>
+                <span>seconds</span>
+            </div>
+        </div>
+        <p></p>
+
+        <div class="countdown-container">
+            <h3 class="label-three label">Mid-2</h3>
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days2">0</p>
+                <span>days</span>
+            </div>
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours2">0</p>
+                <span>hours</span>
+            </div>
+            <div class="countdown-el mins-c">
+                <p class="big-text" id="mins2">0</p>
+                <span>mins</span>
+            </div>
+            <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds2">0</p>
+                <span>seconds</span>
+            </div>
+        </div>
+        <p></p>
+        <div class="countdown-container">
+            <h3 class="label-four label">Mid-3</h3>
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days3">0</p>
+                <span>days</span>
+            </div>
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours3">0</p>
+                <span>hours</span>
+            </div>
+            <div class="countdown-el mins-c">
+                <p class="big-text" id="mins3">0</p>
+                <span>mins</span>
+            </div>
+            <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds3">0</p>
+                <span>seconds</span>
+            </div>
+        </div>
+        <p></p>
+
+        <div class="countdown-container">
+            <h3 class="label-five label">Date of Clousure of classwork</h3>
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days4">0</p>
+                <span>days</span>
+            </div>
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours4">0</p>
+                <span>hours</span>
+            </div>
+            <div class="countdown-el mins-c">
+                <p class="big-text" id="mins4">0</p>
+                <span>mins</span>
+            </div>
+            <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds4">0</p>
+                <span>seconds</span>
+            </div>
+        </div>
+<p></p>
+        <div class="countdown-container">
+            <h3 class="label-six label">Date of Commencement of Semester Examination</h3>
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days5">0</p>
+                <span>days</span>
+            </div>
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours5">0</p>
+                <span>hours</span>
+            </div>
+            <div class="countdown-el mins-c">
+                <p class="big-text" id="mins5">0</p>
+                <span>mins</span>
+            </div>
+            <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds5">0</p>
+                <span>seconds</span>
+            </div>
+        </div>
+<p></p>
+        <div class="countdown-container">
+            <h3 class="label-seven label">Date of Clousure of Semester Examination</h3>
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days6">0</p>
+                <span>days</span>
+            </div>
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours6">0</p>
+                <span>hours</span>
+            </div>
+            <div class="countdown-el mins-c">
+                <p class="big-text" id="mins6">0</p>
+                <span>mins</span>
+            </div>
+            <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds6">0</p>
+                <span>seconds</span>
+            </div>
+        </div>
+        </div>  
+        </div>  
+    </body>
+</html>
