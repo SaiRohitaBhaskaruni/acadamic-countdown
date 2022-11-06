@@ -1,1 +1,1 @@
-# acadamic-countdown
+# Acadamic Calendar countdown timer
